@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Animais</string>
+    <string name="frases_gatos_cachorros">Frases de gatos e cachorros</string>
+    <string name="digitar_nome">Digite o seu nome</string>
+    <string name="botao_guardar">GUARDAR</string>
+    <string name="botao_gerar_frase">GERAR OUTRA FRASE</string>
+
+    <string name="saudacao">Olá, %1$s! Clique em um animal!</string>
+    <string name="clique_primeiro">Por favor, clique em um animal primeiro!</string>
+
+    <string-array name="lista_curiosidades_gato">
+        <item>Gatos dormem cerca de dois terços do dia. Isso é necessário para que eles possam recuperar a energia gasta nas atividades de caça e exploração.</item>
+        <item>Eles ronronam tanto por prazer quanto para indicar dor ou desconforto. Além disso, esfregam-se nas pessoas para demonstrar afeto e também para marcar território, liberando feromônios através de glândulas na face.</item>
+        <item>A audição dos gatos é melhor que a dos cães, e eles podem girar as orelhas quase 180 graus para captar sons em diferentes direções.</item>
+        <item>Gatos podem correr a velocidades de até 49 km/h em curtas distâncias e saltar até cinco vezes a sua altura. Eles também têm um reflexo chamado "reflexo de endireitamento", que os ajuda a cair em pé mesmo após uma queda de vários metros.</item>
+        <item>Eles têm uma visão noturna seis vezes melhor que a humana e bigodes muito sensíveis para detectar mudanças no ambiente.</item>
+    </string-array>
+
+    <string-array name="lista_curiosidades_cachorro">
+        <item>O olfato dos cachorros é 25 vezes melhor que o dos humanos, com 25 vezes mais receptores olfativos, permitindo que identifiquem pessoas e coisas pelo cheiro.</item>
+        <item>A audição dos cães é 10 vezes melhor que a humana, o que explica seu medo de barulhos altos como fogos de artifício e trovões, e a capacidade de identificar sons específicos como o barulho do carro.</item>
+        <item>Quando um cachorro olha profundamente nos olhos de seu tutor, há liberação de ocitocina ("hormônio do amor") em ambos, o que é uma forma de demonstrar afeto.</item>
+        <item>A cauda e as orelhas são ferramentas de comunicação; um abano de cauda geralmente indica felicidade, enquanto orelhas abaixadas podem sinalizar medo ou insegurança.</item>
+        <item>Acredita-se que um cachorro tenha inteligência equivalente à de uma criança de 2 anos, podendo entender cerca de 250 palavras e até alguns números.</item>
+    </string-array>
+
+</resources>
