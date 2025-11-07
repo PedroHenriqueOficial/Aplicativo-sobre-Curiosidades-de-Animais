@@ -34,7 +34,7 @@ class SecondActivity : AppCompatActivity() {
         // Recebe o nome e exibe a saudação inicial
 
         val nome = intent.getStringExtra("NOME")
-        binding.textFraseGerada.text = getString(R.string.saudacao, nome)
+        binding.mensagem.text = getString(R.string.saudacao, nome)
 
         // Define o clique da imagem do GATO
 
