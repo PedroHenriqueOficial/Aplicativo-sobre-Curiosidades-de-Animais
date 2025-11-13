@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="frases_gatos_cachorros">Phrases about cats and dogs</string>
+    <string name="digitar_nome">Enter your name</string>
+    <string name="botao_guardar">SAVE</string>
+    <string name="botao_gerar_frase">GENERATE ANOTHER SENTENCE</string>
+
+    <string name="saudacao">HELLO, %1$s!</string>
+    <string name="clique_primeiro">Please click on an animal first!</string>
+
+    <string-array name="lista_curiosidades_gato">
+        <item>Cats sleep for about two-thirds of the day. This is necessary so they can recover the energy spent on hunting and exploring activities.</item>
+        <item>They purr both for pleasure and to indicate pain or discomfort. Furthermore, they rub against people to show affection and also to mark their territory, releasing pheromones through glands on their face.</item>
+        <item>Cats have better hearing than dogs, and they can rotate their ears almost 180 degrees to pick up sounds from different directions.</item>
+        <item>Cats can run at speeds of up to 49 km/h over short distances and jump up to five times their height. They also have a reflex called the \"righting reflex,\" which helps them land on their feet even after a fall of several meters.</item>
+        <item>They have night vision six times better than humans and very sensitive whiskers to detect changes in the environment.</item>
+    </string-array>
+
+    <string-array name="lista_curiosidades_cachorro">
+        <item>A dog\'s sense of smell is 25 times better than a human\'s, with 25 times more olfactory receptors, allowing them to identify people and things by scent.</item>
+        <item>Dogs have 10 times better hearing than humans, which explains their fear of loud noises like fireworks and thunder, and their ability to identify specific sounds like car noises.</item>
+        <item>When a dog looks deeply into its owner\'s eyes, oxytocin (\"the love hormone\") is released in both, which is a way of showing affection.</item>
+        <item>The tail and ears are tools of communication; a wagging tail usually indicates happiness, while lowered ears can signal fear or insecurity.</item>
+        <item>It is believed that a dog has intelligence equivalent to that of a 2-year-old child, being able to understand around 250 words and even some numbers.</item>
+    </string-array>
+
+</resources>

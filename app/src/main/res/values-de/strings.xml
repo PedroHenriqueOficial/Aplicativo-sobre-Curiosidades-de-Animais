@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Tiere</string>
+    <string name="frases_gatos_cachorros">Sätze über Katzen und Hunde</string>
+    <string name="digitar_nome">Gib deinen Namen ein</string>
+    <string name="botao_guardar">SPEICHERN</string>
+
+    <string name="botao_gerar_frase">NEUEN SATZ GENERIEREN</string>
+    <string name="saudacao">HALLO, %1$s!</string>
+    <string name="clique_primeiro">Bitte klicke zuerst auf ein Tier!</string>
+
+    <string-array name="lista_curiosidades_gato">
+        <item>Katzen schlafen etwa zwei Drittel des Tages. Dies ist notwendig, damit sie die Energie wiedererlangen können, die sie für Jagd- und Erkundungsaktivitäten aufwenden.</item>
+        <item>Sie schnurren sowohl zum Vergnügen als auch um Schmerz oder Unbehagen anzuzeigen. Außerdem reiben sie sich an Menschen, um Zuneigung zu zeigen und ihr Territorium zu markieren, wobei sie Pheromone über Drüsen im Gesicht abgeben.</item>
+        <item>Katzen haben ein besseres Gehör als Hunde und können ihre Ohren fast 180 Grad drehen, um Geräusche aus verschiedenen Richtungen aufzunehmen.</item>
+        <item>Katzen können über kurze Strecken Geschwindigkeiten von bis zu 49 km/h erreichen und bis zum Fünffachen ihrer Höhe springen. Sie haben auch einen Reflex namens "Stellreflex", der ihnen hilft, selbst nach einem Sturz aus mehreren Metern Höhe auf den Füßen zu landen.</item>
+        <item>Sie haben eine sechsmal bessere Nachtsicht als Menschen und sehr empfindliche Schnurrhaare, um Veränderungen in der Umgebung zu erkennen.</item>
+    </string-array>
+
+    <string-array name="lista_curiosidades_cachorro">
+        <item>Der Geruchssinn eines Hundes ist 25-mal besser als der eines Menschen, mit 25-mal mehr Geruchsrezeptoren, was es ihnen ermöglicht, Menschen und Dinge am Geruch zu identifizieren.</item>
+        <item>Hunde haben ein 10-mal besseres Gehör als Menschen, was ihre Angst vor lauten Geräuschen wie Feuerwerk und Donner erklärt, sowie ihre Fähigkeit, bestimmte Geräusche wie Autolärm zu identifizieren.</item>
+        <item>Wenn ein Hund seinem Besitzer tief in die Augen schaut, wird bei beiden Oxytocin ("das Liebeshormon") freigesetzt, was eine Art ist, Zuneigung zu zeigen.</item>
+        <item>Der Schwanz und die Ohren sind Kommunikationsmittel; ein wedelnder Schwanz signalisiert normalerweise Freude, während angelegte Ohren Angst oder Unsicherheit signalisieren können.</item>
+        <item>Man geht davon aus, dass ein Hund die Intelligenz eines 2-jährigen Kindes besitzt und etwa 250 Wörter und sogar einige Zahlen verstehen kann.</item>
+    </string-array>
+
+</resources>

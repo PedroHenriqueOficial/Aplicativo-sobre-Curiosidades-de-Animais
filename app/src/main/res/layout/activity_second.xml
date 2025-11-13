@@ -1,53 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/baby_blue"
+    android:background="@color/white"
     tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/retangulo_azul"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/baby_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/cachorro"/>
 
     <ImageButton
         android:id="@+id/gato"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
+        android:padding="20dp"
         android:scaleType="centerCrop"
         android:src="@drawable/cat"
-
-        app:layout_constraintEnd_toStartOf="@+id/cachorro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cachorro"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"/>
 
     <ImageButton
         android:id="@+id/cachorro"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
         android:scaleType="centerCrop"
         android:src="@drawable/dog"
-
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/gato"
-        app:layout_constraintTop_toBottomOf="@+id/text_titulo" />
+        app:layout_constraintStart_toEndOf="@id/gato"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/mensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saudacao"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/alata"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/text_frase_gerada"
+        app:layout_constraintTop_toBottomOf="@id/gato"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
 
     <TextView
         android:id="@+id/text_frase_gerada"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="@string/clique_primeiro"
         android:textSize="20sp"
         android:textStyle="italic"
-
+        android:fontFamily="@font/alata"
         app:layout_constraintBottom_toTopOf="@+id/button_guardar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,6 +93,7 @@
         android:backgroundTint="@color/water_green"
         android:text="@string/botao_gerar_frase"
         android:textStyle="bold"
+        android:fontFamily="@font/alata"
         app:cornerRadius="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

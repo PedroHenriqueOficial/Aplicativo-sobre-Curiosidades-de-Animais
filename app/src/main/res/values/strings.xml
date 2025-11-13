@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name">Animais</string>
     <string name="frases_gatos_cachorros">Frases de gatos e cachorros</string>
@@ -5,7 +7,7 @@
     <string name="botao_guardar">GUARDAR</string>
     <string name="botao_gerar_frase">GERAR OUTRA FRASE</string>
 
-    <string name="saudacao">Olá, %1$s! Clique em um animal!</string>
+    <string name="saudacao">Olá, %1$s!</string>
     <string name="clique_primeiro">Por favor, clique em um animal primeiro!</string>
 
     <string-array name="lista_curiosidades_gato">
