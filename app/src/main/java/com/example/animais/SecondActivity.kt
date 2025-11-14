@@ -35,16 +35,42 @@ class SecondActivity : AppCompatActivity() {
     }
     private fun setupObservers() {
 
-        // Novo observador para o NOME
-
         viewModel.nomeUsuario.observe(this) { nome ->
             binding.mensagem.text = getString(R.string.saudacao, nome)
         }
 
-        // Observa a frase gerada (sem mudança)
-
         viewModel.fraseGerada.observe(this) { frase ->
             binding.textFraseGerada.text = frase
+        }
+
+        // Observador para o LOADING
+
+        viewModel.isLoading.observe(this) { isLoading ->
+            if (isLoading) {
+
+                // Mostra o "loading" e esconde o texto
+
+                binding.progressBar.visibility = android.view.View.VISIBLE
+                binding.textFraseGerada.visibility = android.view.View.GONE
+
+                // Desabilita os botões para evitar cliques duplos
+
+                binding.buttonGuardar.isEnabled = false
+                binding.gato.isEnabled = false
+                binding.cachorro.isEnabled = false
+            } else {
+
+                // Esconde o "loading" e mostra o texto
+
+                binding.progressBar.visibility = android.view.View.GONE
+                binding.textFraseGerada.visibility = android.view.View.VISIBLE
+
+                // Habilita os botões novamente
+
+                binding.buttonGuardar.isEnabled = true
+                binding.gato.isEnabled = true
+                binding.cachorro.isEnabled = true
+            }
         }
 
         // Observa o animal selecionado (sem mudança)

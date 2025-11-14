@@ -49,6 +49,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3") // Para ViewModel - versão mais recente
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.3") // Para LiveData - versão mais recente
+    implementation("com.squareup.retrofit2:retrofit:2.9.0") // Retrofit (o cliente HTTP)
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0") // GSON (o conversor de JSON para classes Kotlin)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
